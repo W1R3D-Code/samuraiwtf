@@ -141,8 +141,8 @@ sudo -u samurai git clone --depth=1 https://github.com/danielmiessler/SecLists.g
 
 # installing ZAP from the OWASP download site on Git
 echo '...fetching and unzipping ZAP from github...'
-sudo -u samurai wget -q -O /tmp/installers/ZAP_2.6.0_Crossplatform.zip https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Crossplatform.zip
-sudo -u samurai unzip /tmp/installers/ZAP_2.6.0_Crossplatform.zip
+sudo -u samurai wget -q -O /tmp/installers/ZAP_Crossplatform.zip https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2.8.0_Crossplatform.zip
+sudo -u samurai unzip /tmp/installers/ZAP_Crossplatform.zip
 
 #Hack to fix w3af_console
 ln -s /usr/bin/python /usr/bin/python2.5
